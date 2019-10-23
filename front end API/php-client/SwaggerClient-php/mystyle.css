@@ -1,0 +1,21 @@
+.container{
+    background-color: darkorange;
+    width: 80%;
+    margin-left: 10%;
+    margin-right:10%;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.label{
+    width:300px;
+}
+
+.division{
+   
+    padding: 20px;
+    height: auto; 
+    border-bottom: 2px solid wheat;
+}
+
