@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: io.swagger.api.HRServiceTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 13.956 sec <<< FAILURE! - in io.swagger.api.HRServiceTest
-employeeSet_givenValidData_doSet(io.swagger.api.HRServiceTest)  Time elapsed: 0.042 sec  <<< ERROR!
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 11.472 sec <<< FAILURE! - in io.swagger.api.HRServiceTest
+employeeSet_givenValidData_doSet(io.swagger.api.HRServiceTest)  Time elapsed: 0.028 sec  <<< ERROR!
 org.mockito.exceptions.base.MockitoException: 
 
 Only void methods can doNothing()!
