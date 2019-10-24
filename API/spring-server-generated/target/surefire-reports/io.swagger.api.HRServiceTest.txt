@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: io.swagger.api.HRServiceTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 13.956 sec <<< FAILURE! - in io.swagger.api.HRServiceTest
+employeeSet_givenValidData_doSet(io.swagger.api.HRServiceTest)  Time elapsed: 0.042 sec  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Only void methods can doNothing()!
+Example of correct use of doNothing():
+    doNothing().
+    doThrow(new RuntimeException())
+    .when(mock).someVoidMethod();
+Above means:
+someVoidMethod() does nothing the 1st time but throws an exception the 2nd time is called
+	at io.swagger.api.HRServiceTest.employeeSet_givenValidData_doSet(HRServiceTest.java:96)
+
